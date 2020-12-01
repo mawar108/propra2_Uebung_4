@@ -6,12 +6,45 @@
         <link rel="stylesheet" href="bootstrap.min.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container text-center">
             <h1> Kontaktformular </h1>
         </div>
         <div class="container">
-            <form >
-                <input
+            <form>
+                <label>Name</label>
+                <input type="text" class="form-control" name="name">
+
+                <label>Vorname</label>
+                <input type="text" class="form-control" name="vorname">
+
+                <label>Telefonnummer</label>
+                <input type="number" class="form-control" name="telefon">
+
+                <label>E-Mail</label>
+                <input type="email" class="form-control" name="email">
+
+                <label>Datum der Exposition</label>
+                <input type="date" class="form-control" name="date">
+
+                <label>Dauer der Exposition</label>
+                <input type="time" class="form-control" name="date">
+
+                <label>Strasse</label>
+                <input type="text" class="form-control" name="strasse">
+
+                <label>Hausnummer</label>
+                <input type="text" class="form-control" name="hausnummer">
+
+                <label>Postleitzahl</label>
+                <input type="number" class="form-control" name="postleitzahl">
+
+                <label>Stadt</label>
+                <input type="text" class="form-control" name="stadt">
+
+                <br>
+
+                <button class="btn btn-outline-info text-center pagination">Abschicken</button>
+
             </form>
         </div>
 
